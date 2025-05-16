@@ -21,6 +21,7 @@ jobs:
         node-version: 20
 
     - name: Install dependencies
+      working-directory: task2/ts
       run: npm ci
 
     - name: Install Playwright browsers
