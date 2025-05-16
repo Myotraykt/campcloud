@@ -1,4 +1,4 @@
-import { test } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 import { ExamplePage } from '../pages/example.page';
 import { IanaPage } from '../pages/iana.page';
 
